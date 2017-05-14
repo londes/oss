@@ -14,6 +14,10 @@ body {
   background-color: grey;
 }
 
+.main-header {
+  padding-top: 8px;
+}
+
 .nav-header {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -21,17 +25,54 @@ body {
   padding-bottom: 4px;
 }
 
-.main-header {
+.banner {
+  padding: 10px 0px 10px 0px;
+}
+
+ul.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.nav-line {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.main-body {
+  padding-bottom: 8px;
+}
+
+.poem-container{
   padding-top: 8px;
   padding-bottom: 8px;
 }
 
-.main-body {
-  padding-top: 8px;
-  padding-bottom: 8px;
+p.breaker{
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  color: black;
 }
 
 .main-footer {
   padding-top: 8px;
   padding-bottom: 8px;
+  border-top: solid black 1px;
 }
